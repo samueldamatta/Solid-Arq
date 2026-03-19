@@ -8,7 +8,8 @@
     "start": "node build/server.js",
     "build": "tsup src --out-dir build",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "@types/bcrypt": "6.0.0",
     "@types/node": "^25.3.5",
     "@types/pg": "8.18.0",
+    "@vitest/coverage-v8": "4.1.0",
     "eslint": "10.0.3",
     "globals": "17.4.0",
     "prisma": "7.4.2",
