@@ -1,5 +1,5 @@
 import fastify from "fastify";
-import { appRoutes } from "./http/controllers/routes.js";
+import { appRoutes } from "./http/routes.js";
 import { UserAlreadyExistsError } from "./use-cases/erros/user-already-exists-error.js";
 import { ZodError } from "zod";
 import { env } from "./env/index.js";

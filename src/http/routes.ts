@@ -1,6 +1,6 @@
 import type { FastifyInstance } from "fastify";
-import { register } from "./register.js";
-import { authenticate } from "./authenticate.js";
+import { register } from "./controllers/register.js";
+import { authenticate } from "./controllers/authenticate.js";
 
 
 export async function appRoutes(app: FastifyInstance) {
